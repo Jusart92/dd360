@@ -20,13 +20,13 @@ To run the project, you need to have Docker and Docker Compose installed on your
 4. Wait for the containers to build and start. Once everything is up and running, you can access the Airflow web interface at `http://localhost:8080`.
 
 5. In the Airflow web interface, navigate to the "Admin" -> "Connections" page and create a new connection with the following details:
-    Conn Id: mysql_conn
-    Conn Type: MySQL
-    Host: database
-    Schema: meteored
-    Login: root
-    Password: dd360
-    (detail on docker-compose.yaml)
+    * Conn Id: mysql_conn
+    * Conn Type: MySQL
+    * Host: database
+    * Schema: meteored
+    * Login: root
+    * Password: dd360
+(detail on docker-compose.yaml)
 
 
 ### Usage
